@@ -1,0 +1,77 @@
+
+/* ---------- Laptop / petits desktops (<=1200px) ---------- */
+@media (max-width: 1199.98px){
+  :root{ --section-pad: 6rem; }
+  .hero-title{ font-size:clamp(1.9rem, 4vw, 2.8rem); }
+}
+
+/* ---------- Tablette (<=991px) ---------- */
+@media (max-width: 991.98px){
+  :root{ --section-pad: 5rem; }
+  main{ overflow-x:hidden; }
+
+  .glass-nav{ top:0; width:100%; border-radius:0; }
+
+  .hero{ padding-top:35px; text-align:start; }
+  .hero-text{ margin-inline:0; }
+  .hero-actions{ justify-content:flex-start; }
+  .hero-socials{ justify-content:center; }
+  #contact .hero-socials{ justify-content:flex-start; }
+
+  .hero-photo-wrap{ margin-top:2.5rem; max-width:320px; }
+  .badge-top{ left:-4%; }
+  .badge-bottom{ right:-4%; }
+
+  .about-card .row{ text-align:start; }
+  .tech-tags{ justify-content:flex-start; }
+  .section > .container > .eyebrow{ text-align:center !important; }
+
+}
+
+/* ---------- Mobile large (<=767px) ---------- */
+@media (max-width: 767.98px){
+  :root{ --section-pad: 4rem; --radius-lg: 22px; }
+
+  .hero-title{ font-size:2rem; }
+  .hero{ min-height:auto; padding-top:72px; padding-bottom:44px; }
+  .hero-photo-wrap{ display:none; }
+  .scroll-cue{ margin-top:2.25rem; }
+  .hero-actions{ flex-direction:column; align-items:stretch; }
+  .hero-actions .btn{
+    width:100%;
+    max-width:100%;
+    text-align:center;
+  }
+
+  .section-title{ font-size:1.6rem; }
+
+  .about-card{ padding:1.4rem; }
+
+  .filter-bar{ gap:.4rem; }
+  .filter-btn{ padding:.45rem 1rem; font-size:.8rem; }
+  #portfolioGrid{ gap:.85rem; padding-inline:0; touch-action:pan-x; }
+  #portfolioGrid > .portfolio-item{ flex-basis:min(76vw, 300px); }
+  #portfolioGrid > .portfolio-item[data-category="tech"]{ flex-basis:min(68vw, 250px); }
+  .carousel-control{ width:32px; height:32px; }
+  .carousel-prev{ left:.55rem; }
+  .carousel-next{ right:.55rem; }
+
+  .footer-top{ flex-direction:column; text-align:center; justify-content:center; }
+  .footer-copy{ width:100%; text-align:center; }
+
+  .back-to-top{ bottom:18px; right:18px; width:44px; height:44px; }
+}
+
+/* ---------- Mobile (<=575px) ---------- */
+@media (max-width: 575.98px){
+  .brand-logo{ font-size:1rem; }
+  .theme-toggle{ width:36px; height:36px; }
+
+  .about-card{ border-radius:18px; }
+  .contact-form{ padding:1.2rem; }
+
+  #portfolioGrid > .portfolio-item{ flex-basis:calc(100vw - 3.5rem); }
+  #portfolioGrid > .portfolio-item[data-category="tech"]{ flex-basis:250px; }
+  .certificate-card{ min-height:0; }
+  .certificate-preview{ min-height:155px; }
+}
