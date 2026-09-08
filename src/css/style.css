@@ -936,7 +936,7 @@ body.modal-open{ overflow:hidden; }
 .footer{
   background:#102c26;
   border-top:1px solid rgba(250,248,245,.18);
-  padding:3.5rem 0 1.6rem;
+  padding:1.5rem 0 1.6rem;
 }
 .footer-top{
   display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1.5rem;
