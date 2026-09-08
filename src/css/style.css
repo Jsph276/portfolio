@@ -911,24 +911,24 @@ body.modal-open{ overflow:hidden; }
   color:var(--text);
 }
 #contact .hero-socials a.social-github:hover{
-  background-color:#181717 !important;
-  border-color:#181717 !important;
-  color:#ffffff !important;
+  background-color:#181717;
+  border-color:#181717;
+  color:#ffffff;
 }
 #contact .hero-socials a.social-linkedin:hover{
-  background-color:#0a66c2 !important;
-  border-color:#0a66c2 !important;
-  color:#ffffff !important;
+  background-color:#0a66c2;
+  border-color:#0a66c2;
+  color:#ffffff;
 }
 #contact .hero-socials a.social-whatsapp:hover{
-  background-color:#25d366 !important;
-  border-color:#25d366 !important;
-  color:#ffffff !important;
+  background-color:#25d366;
+  border-color:#25d366;
+  color:#ffffff;
 }
 #contact .hero-socials a.social-telegram:hover{
-  background-color:#229ed9 !important;
-  border-color:#229ed9 !important;
-  color:#ffffff !important;
+  background-color:#229ed9;
+  border-color:#229ed9;
+  color:#ffffff;
 }
 
 /* FOOTER*/
@@ -1002,6 +1002,6 @@ body.modal-open{ overflow:hidden; }
 
 /* Respect des préférences de mouvement réduit */
 @media (prefers-reduced-motion: reduce){
-  *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; }
+  *{ animation-duration:0.001ms; animation-iteration-count:1; transition-duration:0.001ms; }
   html{ scroll-behavior:auto; }
 }
